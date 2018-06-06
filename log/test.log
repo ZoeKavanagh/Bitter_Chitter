@@ -1,0 +1,3 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/user/new" for 127.0.0.1 at 2018-06-06 22:44:30 +0100
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
