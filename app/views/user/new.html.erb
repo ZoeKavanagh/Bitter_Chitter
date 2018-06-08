@@ -1,0 +1,16 @@
+<header>Sign up to BitterChitter
+
+<%= form_for user_new_path(controller: 'posts', action: 'new', method: 'post', class: 'new-use-form') do |form| %>
+  <%= form.label :firstname %>
+  <%= form.text_field :firstname %>
+  <%= form.label :lastname %>
+  <%= form.text_field :lastname %>
+  <%= form.label :email %>
+  <%= form.text_field :email %>
+  <%= form.label :password %>
+  <%= form.text_field :password %>
+  <br>
+  <div class="actions">
+    <%= form.button 'Submit' %>
+  </div>
+    <% end %>
